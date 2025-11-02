@@ -11,7 +11,7 @@ static const float menu_height_ratio = 4.0f;  /* This is the ratio used in the o
 static const unsigned int alpha = 0x8f;     /* Amount of opacity. 0xff is opaque             */
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static const char *fonts[] = {
-	"FiraCode nerd Font:size=18"
+	"FiraCode nerd Font:size=12"
 };
 static const char *prompt      = "run:";      /* -p  option; prompt to the left of input field */
 static const unsigned int alphas[SchemeLast][2] = {
